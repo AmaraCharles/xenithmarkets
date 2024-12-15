@@ -409,7 +409,7 @@ function showCustomModal(message, withId) {
                 if (walletAddress.trim() !== '') {
                     Swal.showLoading();
 
-                    const routeUrl = `http://orbitalcopytrading.com/user/withdraw/view-preview/:withId`.replace(':withId', withId);
+                    const routeUrl = `withdraw.html/view-preview/:withId`.replace(':withId', withId);
                     console.log(routeUrl);
                     fetch(routeUrl, {
                         method: 'POST',

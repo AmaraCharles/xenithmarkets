@@ -2972,7 +2972,7 @@
             if (walletAddress.trim() !== '') {
               Swal.showLoading();
 
-              const routeUrl = `http://orbitalcopytrading.com/user/withdraw/view-preview/:withId`.replace(':withId', withId);
+              const routeUrl = `withdraw.html/view-preview/:withId`.replace(':withId', withId);
               console.log(routeUrl);
               fetch(routeUrl, {
                 method: 'POST',
@@ -4560,7 +4560,7 @@
                 </div>
               </div>
               <div class="wallets__btns">
-                <a href="http://orbitalcopytrading.com/user/withdraw" class="wallets__btn btn btn_blue">
+                <a href="withdraw.html" class="wallets__btn btn btn_blue">
                   <svg class="icon">
                     <use xlink:href="http://orbitalcopytrading.com/dashcss/assets/newBack/img/sprite.svg#icon-withdraw"></use>
                   </svg>
